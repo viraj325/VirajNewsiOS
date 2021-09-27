@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E27825104DCD7C34A6B1A59 /* Pods_VirajNews_VirajNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA0399642DF907E85C1BBB7 /* Pods_VirajNews_VirajNewsUITests.framework */; };
+		BBD13A40852B4338977146EC /* Pods_VirajNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35673D4132BE0B3A13A61DEF /* Pods_VirajNewsTests.framework */; };
+		C00463FC250216580090B0A4 /* ViewNewsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00463FB250216580090B0A4 /* ViewNewsUI.swift */; };
+		C0494C4C24FF1B7600AE6F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C4B24FF1B7600AE6F36 /* AppDelegate.swift */; };
+		C0494C4E24FF1B7600AE6F36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C4D24FF1B7600AE6F36 /* SceneDelegate.swift */; };
+		C0494C5124FF1B7600AE6F36 /* VirajNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0494C4F24FF1B7600AE6F36 /* VirajNews.xcdatamodeld */; };
+		C0494C5324FF1B7600AE6F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C5224FF1B7600AE6F36 /* ContentView.swift */; };
+		C0494C5524FF1B7A00AE6F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0494C5424FF1B7A00AE6F36 /* Assets.xcassets */; };
+		C0494C5824FF1B7A00AE6F36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0494C5724FF1B7A00AE6F36 /* Preview Assets.xcassets */; };
+		C0494C5B24FF1B7A00AE6F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0494C5924FF1B7A00AE6F36 /* LaunchScreen.storyboard */; };
+		C0494C6624FF1B7B00AE6F36 /* VirajNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C6524FF1B7B00AE6F36 /* VirajNewsTests.swift */; };
+		C0494C7124FF1B7B00AE6F36 /* VirajNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C7024FF1B7B00AE6F36 /* VirajNewsUITests.swift */; };
+		C0494C7F24FF213B00AE6F36 /* NewsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494C7E24FF213B00AE6F36 /* NewsObserver.swift */; };
+		C5D48D70CB38B4107AFAA6E2 /* Pods_VirajNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4617875C5BD35F5B4B7F72C4 /* Pods_VirajNews.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0494C6224FF1B7B00AE6F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0494C4024FF1B7600AE6F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0494C4724FF1B7600AE6F36;
+			remoteInfo = VirajNews;
+		};
+		C0494C6D24FF1B7B00AE6F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0494C4024FF1B7600AE6F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0494C4724FF1B7600AE6F36;
+			remoteInfo = VirajNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BFB7057ED13D31E00371911 /* Pods-VirajNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNewsTests.debug.xcconfig"; path = "Target Support Files/Pods-VirajNewsTests/Pods-VirajNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		218063825D96528808DF5EBD /* Pods-VirajNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNews.release.xcconfig"; path = "Target Support Files/Pods-VirajNews/Pods-VirajNews.release.xcconfig"; sourceTree = "<group>"; };
+		2DA0399642DF907E85C1BBB7 /* Pods_VirajNews_VirajNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirajNews_VirajNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35673D4132BE0B3A13A61DEF /* Pods_VirajNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirajNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4617875C5BD35F5B4B7F72C4 /* Pods_VirajNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirajNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB71E8ACECFE3AC7AAF9639 /* Pods-VirajNews-VirajNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNews-VirajNewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirajNews-VirajNewsUITests/Pods-VirajNews-VirajNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C00463FB250216580090B0A4 /* ViewNewsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNewsUI.swift; sourceTree = "<group>"; };
+		C0494C4824FF1B7600AE6F36 /* VirajNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirajNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0494C4B24FF1B7600AE6F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0494C4D24FF1B7600AE6F36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0494C5024FF1B7600AE6F36 /* VirajNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirajNews.xcdatamodel; sourceTree = "<group>"; };
+		C0494C5224FF1B7600AE6F36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0494C5424FF1B7A00AE6F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0494C5724FF1B7A00AE6F36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0494C5A24FF1B7A00AE6F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0494C5C24FF1B7A00AE6F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0494C6124FF1B7B00AE6F36 /* VirajNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirajNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0494C6524FF1B7B00AE6F36 /* VirajNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirajNewsTests.swift; sourceTree = "<group>"; };
+		C0494C6724FF1B7B00AE6F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0494C6C24FF1B7B00AE6F36 /* VirajNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirajNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0494C7024FF1B7B00AE6F36 /* VirajNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirajNewsUITests.swift; sourceTree = "<group>"; };
+		C0494C7224FF1B7B00AE6F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0494C7E24FF213B00AE6F36 /* NewsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsObserver.swift; sourceTree = "<group>"; };
+		F7CB418D39EB294DD4DC9475 /* Pods-VirajNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNews.debug.xcconfig"; path = "Target Support Files/Pods-VirajNews/Pods-VirajNews.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0CC61B22BE59901981F172 /* Pods-VirajNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNewsTests.release.xcconfig"; path = "Target Support Files/Pods-VirajNewsTests/Pods-VirajNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF571C561A885481341786D0 /* Pods-VirajNews-VirajNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirajNews-VirajNewsUITests.release.xcconfig"; path = "Target Support Files/Pods-VirajNews-VirajNewsUITests/Pods-VirajNews-VirajNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0494C4524FF1B7600AE6F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D48D70CB38B4107AFAA6E2 /* Pods_VirajNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C5E24FF1B7B00AE6F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD13A40852B4338977146EC /* Pods_VirajNewsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C6924FF1B7B00AE6F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E27825104DCD7C34A6B1A59 /* Pods_VirajNews_VirajNewsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828E0ACD20AAB73DCB3279DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB418D39EB294DD4DC9475 /* Pods-VirajNews.debug.xcconfig */,
+				218063825D96528808DF5EBD /* Pods-VirajNews.release.xcconfig */,
+				5DB71E8ACECFE3AC7AAF9639 /* Pods-VirajNews-VirajNewsUITests.debug.xcconfig */,
+				FF571C561A885481341786D0 /* Pods-VirajNews-VirajNewsUITests.release.xcconfig */,
+				1BFB7057ED13D31E00371911 /* Pods-VirajNewsTests.debug.xcconfig */,
+				FC0CC61B22BE59901981F172 /* Pods-VirajNewsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2C4F6AA7CEB8E0689B1AD0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4617875C5BD35F5B4B7F72C4 /* Pods_VirajNews.framework */,
+				2DA0399642DF907E85C1BBB7 /* Pods_VirajNews_VirajNewsUITests.framework */,
+				35673D4132BE0B3A13A61DEF /* Pods_VirajNewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0494C3F24FF1B7600AE6F36 = {
+			isa = PBXGroup;
+			children = (
+				C0494C4A24FF1B7600AE6F36 /* VirajNews */,
+				C0494C6424FF1B7B00AE6F36 /* VirajNewsTests */,
+				C0494C6F24FF1B7B00AE6F36 /* VirajNewsUITests */,
+				C0494C4924FF1B7600AE6F36 /* Products */,
+				828E0ACD20AAB73DCB3279DC /* Pods */,
+				B2C4F6AA7CEB8E0689B1AD0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0494C4924FF1B7600AE6F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0494C4824FF1B7600AE6F36 /* VirajNews.app */,
+				C0494C6124FF1B7B00AE6F36 /* VirajNewsTests.xctest */,
+				C0494C6C24FF1B7B00AE6F36 /* VirajNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0494C4A24FF1B7600AE6F36 /* VirajNews */ = {
+			isa = PBXGroup;
+			children = (
+				C0494C4B24FF1B7600AE6F36 /* AppDelegate.swift */,
+				C0494C4D24FF1B7600AE6F36 /* SceneDelegate.swift */,
+				C0494C5224FF1B7600AE6F36 /* ContentView.swift */,
+				C0494C5424FF1B7A00AE6F36 /* Assets.xcassets */,
+				C0494C5924FF1B7A00AE6F36 /* LaunchScreen.storyboard */,
+				C0494C5C24FF1B7A00AE6F36 /* Info.plist */,
+				C0494C4F24FF1B7600AE6F36 /* VirajNews.xcdatamodeld */,
+				C0494C5624FF1B7A00AE6F36 /* Preview Content */,
+				C0494C7E24FF213B00AE6F36 /* NewsObserver.swift */,
+				C00463FB250216580090B0A4 /* ViewNewsUI.swift */,
+			);
+			path = VirajNews;
+			sourceTree = "<group>";
+		};
+		C0494C5624FF1B7A00AE6F36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0494C5724FF1B7A00AE6F36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0494C6424FF1B7B00AE6F36 /* VirajNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0494C6524FF1B7B00AE6F36 /* VirajNewsTests.swift */,
+				C0494C6724FF1B7B00AE6F36 /* Info.plist */,
+			);
+			path = VirajNewsTests;
+			sourceTree = "<group>";
+		};
+		C0494C6F24FF1B7B00AE6F36 /* VirajNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0494C7024FF1B7B00AE6F36 /* VirajNewsUITests.swift */,
+				C0494C7224FF1B7B00AE6F36 /* Info.plist */,
+			);
+			path = VirajNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0494C4724FF1B7600AE6F36 /* VirajNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0494C7524FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNews" */;
+			buildPhases = (
+				21FBF502A771F4E62D8978E7 /* [CP] Check Pods Manifest.lock */,
+				C0494C4424FF1B7600AE6F36 /* Sources */,
+				C0494C4524FF1B7600AE6F36 /* Frameworks */,
+				C0494C4624FF1B7600AE6F36 /* Resources */,
+				253F9DAE5C3ADB011A103C26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirajNews;
+			productName = VirajNews;
+			productReference = C0494C4824FF1B7600AE6F36 /* VirajNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0494C6024FF1B7B00AE6F36 /* VirajNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0494C7824FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNewsTests" */;
+			buildPhases = (
+				726A357A20F469C904942C6C /* [CP] Check Pods Manifest.lock */,
+				C0494C5D24FF1B7B00AE6F36 /* Sources */,
+				C0494C5E24FF1B7B00AE6F36 /* Frameworks */,
+				C0494C5F24FF1B7B00AE6F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0494C6324FF1B7B00AE6F36 /* PBXTargetDependency */,
+			);
+			name = VirajNewsTests;
+			productName = VirajNewsTests;
+			productReference = C0494C6124FF1B7B00AE6F36 /* VirajNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0494C6B24FF1B7B00AE6F36 /* VirajNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0494C7B24FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNewsUITests" */;
+			buildPhases = (
+				9A5FC3637BAEE95635DD45A1 /* [CP] Check Pods Manifest.lock */,
+				C0494C6824FF1B7B00AE6F36 /* Sources */,
+				C0494C6924FF1B7B00AE6F36 /* Frameworks */,
+				C0494C6A24FF1B7B00AE6F36 /* Resources */,
+				5FD5B7ACD479EBAA2C11254D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0494C6E24FF1B7B00AE6F36 /* PBXTargetDependency */,
+			);
+			name = VirajNewsUITests;
+			productName = VirajNewsUITests;
+			productReference = C0494C6C24FF1B7B00AE6F36 /* VirajNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0494C4024FF1B7600AE6F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Viraj Patel";
+				TargetAttributes = {
+					C0494C4724FF1B7600AE6F36 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C0494C6024FF1B7B00AE6F36 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C0494C4724FF1B7600AE6F36;
+					};
+					C0494C6B24FF1B7B00AE6F36 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C0494C4724FF1B7600AE6F36;
+					};
+				};
+			};
+			buildConfigurationList = C0494C4324FF1B7600AE6F36 /* Build configuration list for PBXProject "VirajNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0494C3F24FF1B7600AE6F36;
+			productRefGroup = C0494C4924FF1B7600AE6F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0494C4724FF1B7600AE6F36 /* VirajNews */,
+				C0494C6024FF1B7B00AE6F36 /* VirajNewsTests */,
+				C0494C6B24FF1B7B00AE6F36 /* VirajNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0494C4624FF1B7600AE6F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0494C5B24FF1B7A00AE6F36 /* LaunchScreen.storyboard in Resources */,
+				C0494C5824FF1B7A00AE6F36 /* Preview Assets.xcassets in Resources */,
+				C0494C5524FF1B7A00AE6F36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C5F24FF1B7B00AE6F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C6A24FF1B7B00AE6F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21FBF502A771F4E62D8978E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirajNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		253F9DAE5C3ADB011A103C26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirajNews/Pods-VirajNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirajNews/Pods-VirajNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirajNews/Pods-VirajNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD5B7ACD479EBAA2C11254D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirajNews-VirajNewsUITests/Pods-VirajNews-VirajNewsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirajNews-VirajNewsUITests/Pods-VirajNews-VirajNewsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirajNews-VirajNewsUITests/Pods-VirajNews-VirajNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726A357A20F469C904942C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirajNewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5FC3637BAEE95635DD45A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirajNews-VirajNewsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0494C4424FF1B7600AE6F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0494C7F24FF213B00AE6F36 /* NewsObserver.swift in Sources */,
+				C00463FC250216580090B0A4 /* ViewNewsUI.swift in Sources */,
+				C0494C4C24FF1B7600AE6F36 /* AppDelegate.swift in Sources */,
+				C0494C4E24FF1B7600AE6F36 /* SceneDelegate.swift in Sources */,
+				C0494C5324FF1B7600AE6F36 /* ContentView.swift in Sources */,
+				C0494C5124FF1B7600AE6F36 /* VirajNews.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C5D24FF1B7B00AE6F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0494C6624FF1B7B00AE6F36 /* VirajNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0494C6824FF1B7B00AE6F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0494C7124FF1B7B00AE6F36 /* VirajNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0494C6324FF1B7B00AE6F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0494C4724FF1B7600AE6F36 /* VirajNews */;
+			targetProxy = C0494C6224FF1B7B00AE6F36 /* PBXContainerItemProxy */;
+		};
+		C0494C6E24FF1B7B00AE6F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0494C4724FF1B7600AE6F36 /* VirajNews */;
+			targetProxy = C0494C6D24FF1B7B00AE6F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0494C5924FF1B7A00AE6F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0494C5A24FF1B7A00AE6F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0494C7324FF1B7B00AE6F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0494C7424FF1B7B00AE6F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0494C7624FF1B7B00AE6F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CB418D39EB294DD4DC9475 /* Pods-VirajNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VirajNews/Preview Content\"";
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VirajNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0494C7724FF1B7B00AE6F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218063825D96528808DF5EBD /* Pods-VirajNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VirajNews/Preview Content\"";
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VirajNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0494C7924FF1B7B00AE6F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFB7057ED13D31E00371911 /* Pods-VirajNewsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				INFOPLIST_FILE = VirajNewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirajNews.app/VirajNews";
+			};
+			name = Debug;
+		};
+		C0494C7A24FF1B7B00AE6F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0CC61B22BE59901981F172 /* Pods-VirajNewsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				INFOPLIST_FILE = VirajNewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirajNews.app/VirajNews";
+			};
+			name = Release;
+		};
+		C0494C7C24FF1B7B00AE6F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB71E8ACECFE3AC7AAF9639 /* Pods-VirajNews-VirajNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				INFOPLIST_FILE = VirajNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirajNews;
+			};
+			name = Debug;
+		};
+		C0494C7D24FF1B7B00AE6F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF571C561A885481341786D0 /* Pods-VirajNews-VirajNewsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				INFOPLIST_FILE = VirajNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VirajPersonal.VirajNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirajNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0494C4324FF1B7600AE6F36 /* Build configuration list for PBXProject "VirajNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0494C7324FF1B7B00AE6F36 /* Debug */,
+				C0494C7424FF1B7B00AE6F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0494C7524FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0494C7624FF1B7B00AE6F36 /* Debug */,
+				C0494C7724FF1B7B00AE6F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0494C7824FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0494C7924FF1B7B00AE6F36 /* Debug */,
+				C0494C7A24FF1B7B00AE6F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0494C7B24FF1B7B00AE6F36 /* Build configuration list for PBXNativeTarget "VirajNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0494C7C24FF1B7B00AE6F36 /* Debug */,
+				C0494C7D24FF1B7B00AE6F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0494C4F24FF1B7600AE6F36 /* VirajNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0494C5024FF1B7600AE6F36 /* VirajNews.xcdatamodel */,
+			);
+			currentVersion = C0494C5024FF1B7600AE6F36 /* VirajNews.xcdatamodel */;
+			path = VirajNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0494C4024FF1B7600AE6F36 /* Project object */;
+}
